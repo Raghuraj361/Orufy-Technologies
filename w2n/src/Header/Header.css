@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.header_leftSection {
+  display: flex;
+  gap: 79px;
+  align-items: center;
+}
+.image {
+  width: 100px;
+  height: 80px;
+}
+.header_input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid gray;
+  height: 35px;
+}
+.header_input input {
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 12px 0;
+  margin-left: 5px;
+}
+.icon_input {
+  margin: 0 10px;
+}
+.header_rightSection {
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+  align-items: center;
+  text-align: center;
+}
+.category {
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+}

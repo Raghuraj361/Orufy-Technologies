@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  background-color: #f6f8fa;
+  margin-bottom: 40px;
+}
+.sort {
+  height: 40px;
+  display: flex;
+  margin-left: 841px;
+  margin-bottom: 10px;
+}
+.home_product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-left: 60px;
+}
+.brand_category_price {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #fff;
+  margin-left: 105px;
+  padding: 59px;
+  border-radius: 5px;
+  margin-top: 37px;
+  height: 530px;
+}
+.brand_category_price h4 {
+  font-size: 20px;
+  margin-top: -37px;
+  margin-right: -18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.brand_category_price label {
+  display: flex;
+  justify-content: start;
+}
+.value {
+  line-height: 47px;
+  margin-right: 28px;
+}
+.value1 {
+  line-height: 47px;
+}
