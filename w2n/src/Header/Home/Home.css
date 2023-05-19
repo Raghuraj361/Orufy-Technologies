@@ -3,12 +3,21 @@
   background-color: #f6f8fa;
   margin-bottom: 40px;
 }
+
 .sort {
-  height: 40px;
+  height: 26px;
+  border: none;
+}
+.uper_sort {
   display: flex;
-  margin-left: 841px;
+  justify-content: space-between;
+  width: 907px;
+  margin-left: 61px;
+  margin-top: 39px;
   margin-bottom: 10px;
-  margin-top: 10px
+}
+.h_decorate {
+  color: cadetblue;
 }
 .home_product {
   display: flex;
@@ -26,6 +35,7 @@
   border-radius: 5px;
   margin-top: 37px;
   height: 530px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .brand_category_price h4 {
   font-size: 20px;

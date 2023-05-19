@@ -357,19 +357,22 @@ const Home = () => {
           {/* end price section */}
         </div>
 
-        {/* Product Listing */}
         <div className="home_product_sort">
           {/* sort sectiion */}
-          <select
-            className="sort"
-            value={selectedSort}
-            onChange={(e) => handleSort(e.target.value)}
-          >
-            <option value="">Sort by</option>
-            <option value="priceHighToLow">Price High to Low</option>
-            <option value="priceLowToHigh">Price Low to High</option>
-          </select>
+          <div className="uper_sort">
+            <div className="h_decorate">Home/Home Decoration/Artificial</div>
+            <select
+              className="sort"
+              value={selectedSort}
+              onChange={(e) => handleSort(e.target.value)}
+            >
+              <option value="">Sort by</option>
+              <option value="priceHighToLow">Price High to Low</option>
+              <option value="priceLowToHigh">Price Low to High</option>
+            </select>
+          </div>
           {/* end sort sectiion */}
+          {/* Product Listing */}
           <div className="home_product">
             {filteredProducts.map((item) => {
               return <Products {...item} key={item.id} />;
